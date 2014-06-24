@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>chatterbox</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+
+    <!-- dependencies -->
+    <script src="bower_components/jquery/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <!-- your scripts -->
+    <script src="scripts/config.js"></script>
+    <script src="scripts/app.js"></script>
+  </head>
+  <body>
+    <h1>chatter<i>box</i></h1>
+    <form class="navbar-form navbar-center">
+    <div id="wrap_panels">
+
+      <div class="input_wrap">
+
+        <!-- user message input -->
+        <div class="form-group">
+          <input id="messageInput" type="text" class="form-control wider_input" placeholder="What do you want to say?">
+        </div>
+
+        <!-- submit message btn -->
+        <button id="messageButton" type="button" class="btn btn-default">Submit</button>
+      </div>
+
+<!--     <div class="col-md-1"></div> -->
+
+    <!-- room list thread -->
+    <div class="panel panel-info col-md-4 testclass">
+      <div id="roomTitle" class="panel-heading titles">
+        <h3 class="panel-title">Select a Room</h3>
+      </div>
+
+      <div class="panel-body">
+        <ul id="rooms" class="messageList"></ul>
+
+<!--         <form class="form-inline new-room-form" role="form">
+          <input class="form-control new-room" type="text" name="room" placeholder="New Room" />
+          <button class="btn btn-info btn-sm room-button" type="submit">Create</button>
+        </form> -->
+
+        <div class="form-group">
+          <input type="text" id="roomInput" class="form-control" placeholder="add a new room!">
+        <button type="button" id="roomButton" class="btn btn-info">Submit</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-md-1"></div>
+    <!-- message list thread -->
+    <div id="main" class="panel panel-info col-md-7 testclass">
+      <div id="mainTitle" class="panel-heading titles">
+        <h3 class="panel-title room-label"></h3></div>
+      <div class="panel-body">
+        <ul id="chats" class="messageList"></ul>
+      </div>
+    </div>
+<!--     <div class="col-md-1"></div> -->
+
+  </div>
+
+    </form>
+  </body>
+</html>

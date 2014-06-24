@@ -1,0 +1,121 @@
+body {
+    background: #eee;
+    text-align: center;
+    padding: 0 25px;
+    font-family: arial, sans-serif;
+}
+
+#wrap_panels {
+    width: 75% !important;
+    margin: 0 auto;
+}
+
+#main1 {
+    text-align: left;
+}
+
+#main1 h1 {
+    margin-top: 0;
+    font-size: 35px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+#main1 h1 span {
+    font-style:italic;
+}
+
+#main1 ul {
+    padding-left: 20px;
+}
+
+#main1 .error {
+    border: 1px solid red;
+    background: #FDEFF0;
+    padding: 20px;
+}
+
+#main1 .success {
+    margin-top: 25px;
+}
+
+#main1 .success code {
+    font-size: 12px;
+    color: green;
+    line-height: 13px;
+}
+
+.input_wrap {
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 20px;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+form input[type=text] {
+    margin-right: 10px;
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.wider_input {
+    width: 350px !important;
+}
+
+.chat {
+    padding: 5px;
+}
+
+.chat .username {
+    font-weight: 800;
+}
+
+.chat:hover {
+    background-color: #ffd;
+}
+
+.spinner {
+    float: right;
+    height: 46px;
+    margin-bottom: 5px;
+}
+
+.spinner img {
+    padding: 10px;
+}
+
+
+select {
+    margin-right: 10px !important;
+    height: 32px;
+    width: 70px;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid rgb(204, 204, 204);
+}
+.testclass {
+    padding: 0px !important;
+}
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.titles {
+    cursor: pointer;
+}
+
+
+/*.new-room-form {
+    padding-bottom: 15px;
+    padding-left: 12px;
+}*/
