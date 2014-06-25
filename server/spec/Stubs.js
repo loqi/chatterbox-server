@@ -28,10 +28,10 @@ module.exports = {
     };
     var self = this;
     this.addListener = this.on = function(type, callback) {
-      if (type == 'data') {
+      if (type === 'data') {
         callback(JSON.stringify(self._postData));
       }
-      if (type == 'end') {
+      if (type === 'end') {
         callback();
       }
     };
